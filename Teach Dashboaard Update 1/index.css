@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+}
+
+header {
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+    font-family: 'Abel', sans-serif;
+    background: #6583bf;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.left-nav {
+    justify-content: center;
+}
+
+    .left-nav h1 {
+        color: #FFF;
+        padding: 23px;
+    }
+
+.right-nav {
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+#menu {
+    background: #6583bf;
+    color: #FFF;
+    height: 75px;
+    padding-left: 18px;
+    border-radius: 0px;
+}
+
+    #menu ul, #menu li {
+        margin: 0 auto;
+        padding: 0;
+        list-style: none
+    }
+
+    #menu ul {
+        width: 100%;
+    }
+
+    #menu li {
+        float: left;
+        display: inline;
+        position: relative;
+    }
+
+    #menu a {
+        display: block;
+        line-height: 75px;
+        padding: 0 14px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 17px;
+    }
+
+        #menu a.dropdown-arrow:after {
+            content: "\25BE";
+            margin-left: 5px;
+        }
+
+    #menu li a:hover {
+        color: #c6c6c6;
+    }
+
+    #menu input {
+        display: none;
+        margin: 0;
+        padding: 0;
+        height: 75px;
+        width: 100%;
+        opacity: 0;
+        cursor: pointer
+    }
+
+    #menu ul.sub-menus {
+        height: auto;
+        overflow: hidden;
+        width: 170px;
+        background: #6583bf;
+        position: absolute;
+        z-index: 99;
+        display: none;
+    }
+
+        #menu ul.sub-menus li {
+            display: block;
+            width: 100%;
+        }
+
+        #menu ul.sub-menus a {
+            color: #FFFFFF;
+            font-size: 17px;
+        }
+
+    #menu li:hover ul.sub-menus {
+        display: block
+    }
+
+    #menu ul.sub-menus a:hover {
+        color: #c6c6c6;
+    }
+
+section {
+    size: 100%;
+}
+
+.main-container {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.each-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    margin: 50px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+    .left-side h3 {
+        color: #6583bf;
+        padding-bottom: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .left-side h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: #282828;
+        padding-bottom: 32px;
+    }
+
+    .left-side p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        color: #515151;
+    }
+
+.right-side {
+    justify-content: flex-end;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.video {
+    width: 550px;
+    height: 400px;
+    background-color: transparent;
+}
+
+.second-back {
+    background-color: #dcdcdc;
+}
+
+
+.subject-title-box {
+    text-align: left;
+}
+
+    .subject-title-box h1 {
+        padding: 30px;
+        font-size: 32px;
+    }
+
+    .subject-title-box h3 {
+        padding: 30px;
+        padding-bottom: 0px;
+        font-size: 35px;
+        color: hsl(221, 39%, 39%);
+    }
+
+    .subject-title-box h4 {
+        padding: 30px;
+        padding-bottom: 0px;
+        font-size: 25px;
+        color: #515151;
+    }
+
+    .subject-title-box h5 {
+        padding: 30px;
+        padding-bottom: 0px;
+        font-size: 25px;
+        color: #515151;
+    }
+
+    .subject-title-box h6 {
+        text-align: right;
+        padding: 30px;
+        padding-bottom: 0px;
+        font-size: 25px;
+        color: #515151;
+    }
+
+    .subject-title-box h2 {
+        text-align: right;
+        padding: 30px;
+        padding-bottom: 0px;
+        font-size: 25px;
+        color: #515151;
+    }
+
+.student-top-box{
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    
+}
+
+.student-right-side h2 {
+    font-size: 18px;
+    display: flex;
+    float: right;
+}
+
+.student-body-box{
+    padding-top:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.student-body-box-right{
+    float: right;
+}
+.dashboard-sections{
+    background-color: #e9e9e9;
+    margin: 45px;
+    height: 300px;
+    width: 750px;
+    -webkit-box-shadow: 5px 4px 18px 1px rgba(0,0,0,0.68); 
+box-shadow: 5px 4px 18px 1px rgba(0,0,0,0.68);
+
+}
+
+.teacher-top-box{
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+
+.teacher-right-side h2 {
+    font-size: 18px;
+    display: flex;
+    float: right;
+}
+.about-title {
+    padding-top:25px;
+    padding-bottom: 50px;
+}
+.about-paragraphy p{
+    font-size: 20px;
+}    
+.about-paragraphy ol{
+    padding-left: 50px;
+}
+.about-paragraphy li{
+    font-size: larger;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+
+.about-paragraphy q {
+    font-weight: bold;
+    color: #6583bf;
+}
+
+.second-container {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.subject-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .subject-container h1 {
+        padding-top: 0px;
+        padding: 20px;
+        padding-left: 110px;
+        padding-right: 110px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 2px;
+        font-weight: 100;
+    }
+
+.image-maths > img {
+    height: 250px;
+    width: 250px;
+}
+
+.image-science > img {
+    height: 250px;
+    width: 250px;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+    resize: vertical
+}
+
+.submitButton {
+    background-color: #008B8B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+}
+
+    .submitButton:hover {
+        background-color: #23a8b4;
+    }
+
+.footnote {
+    padding-top: 25px;
+    margin-left: 50px;
+    font-size: 12px;
+}

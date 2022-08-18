@@ -1,0 +1,16 @@
+:root {
+  --back-color: #6ead5e;
+  --primary-color: #20800d;
+  --header-back: #20800d;
+  --header-text: #eee;
+}
+
+body {
+  background-color: var(--back-color);
+  color: var(--primary-color);
+}
+header {
+  background-color: var(--header-back);
+  color: var(--header-text);
+}
+
